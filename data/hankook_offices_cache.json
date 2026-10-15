@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "source_url": "https://www.hankooktire.com/global/ko/company/global-network.html",
+  "fetched_at": "2026-10-15T12:55:03.743157+09:00",
+  "status": "ok",
+  "offices": {
+    "KR": [
+      "테크노돔 (중앙 R&D센터)",
+      "대전공장 (대전)",
+      "금산공장 (금산)"
+    ],
+    "DE": [
+      "Hankook Tire Europe Headquarters (노이이젠부르크)",
+      "Europe Technical Center (하노버)",
+      "Hankook Reifen Deutschland GmbH (노이이젠부르크)"
+    ],
+    "HU": [
+      "Hankook Tire Hungary Plant (라찰마시)",
+      "Hankook Tire Budapest Kereskedelmi Kft. (부다페스트)"
+    ],
+    "GB": [
+      "Hankook Tyre U.K. Ltd. (다번트리)",
+      "Hankook Tire Ukraine LLC (키이우)"
+    ],
+    "FR": [
+      "Hankook France S.A.R.L."
+    ],
+    "IT": [
+      "Hankook Tire Italia S.R.L (밀라노)"
+    ],
+    "ES": [
+      "Hankook España, S.A. (마드리드)"
+    ],
+    "NL": [
+      "Hankook Tire Netherlands B.V."
+    ],
+    "PL": [
+      "Hankook Tire Polska Sp. z o.o. (바르샤바)"
+    ],
+    "SE": [
+      "Hankook Tire Sweden AB"
+    ],
+    "RU": [
+      "Hankook Tire Rus LLC (모스크바)"
+    ],
+    "TR": [
+      "Hankook Lastikleri A.S. (이스탄불)"
+    ],
+    "AT": [
+      "Hankook Tire Austria GmbH"
+    ],
+    "RO": [
+      "Hankook Tire Romania S.R.L. (부쿠레슈티)"
+    ],
+    "US": [
+      "Hankook Tire America Corp. (내슈빌)",
+      "American Technical Center (유니언타운)",
+      "Tennessee Plant (클락스빌)"
+    ],
+    "CA": [
+      "Hankook Tire Canada Corp. (미시소거)"
+    ],
+    "MX": [
+      "Hankook Tire De México S.A. DE C.V. (멕시코시티)"
+    ],
+    "CO": [
+      "Hankook Tire Colombia Ltda. (보고타)"
+    ],
+    "CL": [
+      "Hankook Tire Co., Ltd. Agencia En Chile (산티아고)"
+    ],
+    "PA": [
+      "Hankook Tire Panama Ltda. (파나마시티)"
+    ],
+    "CN": [
+      "Hankook Tire China Headquarters (상하이)",
+      "China Technical Center (자싱)",
+      "Chongqing Plant (충칭)",
+      "Jiangsu Plant (화이안)",
+      "Jiaxing Plant (자싱)",
+      "Sales: 1300 13 30 30 (Visit site)"
+    ],
+    "AE": [
+      "A.P.A.M (Asia Pacific Africa Middle East) Sales Division (자카르타)"
+    ],
+    "JP": [
+      "Japan Technical Liaison Office",
+      "Hankook Tire Japan Corp. (오사카)"
+    ],
+    "ID": [
+      "Indonesia Plant (브카시)",
+      "PT. Hankook Tire Sales Indonesia (자카르타)"
+    ],
+    "AU": [
+      "HANKOOK TYRE AUSTRALIA PTY. LTD."
+    ],
+    "MY": [
+      "Hankook Tire Malaysia SDN.BHD. (쿠알라룸푸르)"
+    ],
+    "TH": [
+      "Hankook Tire Thailand Co.,Ltd. (방콕)"
+    ],
+    "SG": [
+      "Hankook Tire Singapore Pte Ltd (싱가포르)"
+    ],
+    "VN": [
+      "Hankook Tire Vietnam Co., Ltd (호치민)"
+    ],
+    "SA": [
+      "Hankook Tire Co., Ltd. Jeddah Office (제다)"
+    ],
+    "EG": [
+      "Hankook Tire and Technology Egypt LLC (카이로)"
+    ],
+    "KZ": [
+      "Hankook Tire Co.Ltd Almaty Office (알마티)"
+    ]
+  }
+}
