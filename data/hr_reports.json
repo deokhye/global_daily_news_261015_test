@@ -1,0 +1,135 @@
+{
+  "_comment": "HR·노동 주요 통계 및 보고서 정적 관리 테이블. 연 1~2회 수동 갱신. 국가 코드는 ISO alpha-2(영국=GB). _global 항목은 모든 국가에 공통으로 덧붙는다. frequency 는 월간/분기/반기/연간/격년/수시 중 하나. 링크는 갱신 시 실제 접속 여부를 함께 점검할 것.",
+  "_global": [
+    {
+      "title": "ILO World Employment and Social Outlook: Trends",
+      "publisher": "ILO",
+      "frequency": "연간",
+      "latest_year": 2026,
+      "link": "https://www.ilo.org/publications/flagship-reports"
+    },
+    {
+      "title": "ILO Global Wage Report",
+      "publisher": "ILO",
+      "frequency": "격년",
+      "latest_year": 2024,
+      "link": "https://www.ilo.org/publications/flagship-reports"
+    },
+    {
+      "title": "OECD Employment Outlook",
+      "publisher": "OECD",
+      "frequency": "연간",
+      "latest_year": 2026,
+      "link": "https://www.oecd.org/employment-outlook/"
+    },
+    {
+      "title": "ILOSTAT 국가별 노동 통계 데이터베이스",
+      "publisher": "ILO",
+      "frequency": "수시",
+      "latest_year": 2026,
+      "link": "https://ilostat.ilo.org/"
+    }
+  ],
+  "countries": {
+    "KR": [
+      {
+        "title": "고용노동통계 (사업체노동력조사·임금근로시간)",
+        "publisher": "고용노동부",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://laborstat.moel.go.kr"
+      },
+      {
+        "title": "경제활동인구조사 (고용동향)",
+        "publisher": "통계청",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://kosis.kr"
+      }
+    ],
+    "US": [
+      {
+        "title": "The Employment Situation",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.bls.gov/news.release/empsit.toc.htm"
+      },
+      {
+        "title": "Employer Costs for Employee Compensation",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "frequency": "분기",
+        "latest_year": 2026,
+        "link": "https://www.bls.gov/news.release/ecec.toc.htm"
+      }
+    ],
+    "DE": [
+      {
+        "title": "Labour Market Statistics",
+        "publisher": "Destatis (연방통계청)",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.destatis.de/EN/Themes/Labour/_node.html"
+      },
+      {
+        "title": "Monatsbericht zum Arbeits- und Ausbildungsmarkt",
+        "publisher": "Bundesagentur für Arbeit",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://statistik.arbeitsagentur.de"
+      }
+    ],
+    "CN": [
+      {
+        "title": "China Statistical Yearbook (Employment & Wages)",
+        "publisher": "National Bureau of Statistics of China",
+        "frequency": "연간",
+        "latest_year": 2025,
+        "link": "https://www.stats.gov.cn/english/"
+      }
+    ],
+    "HU": [
+      {
+        "title": "Labour Market Statistics (Employment, Earnings)",
+        "publisher": "KSH (헝가리 중앙통계청)",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.ksh.hu/?lang=en"
+      }
+    ],
+    "ID": [
+      {
+        "title": "Sakernas (National Labour Force Survey)",
+        "publisher": "BPS (인도네시아 통계청)",
+        "frequency": "반기",
+        "latest_year": 2026,
+        "link": "https://www.bps.go.id/en"
+      }
+    ],
+    "GB": [
+      {
+        "title": "Labour Market Overview",
+        "publisher": "Office for National Statistics",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.ons.gov.uk/employmentandlabourmarket"
+      }
+    ],
+    "JP": [
+      {
+        "title": "Labour Force Survey",
+        "publisher": "총무성 통계국 (Statistics Bureau of Japan)",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.stat.go.jp/english/data/roudou/index.html"
+      },
+      {
+        "title": "Monthly Labour Survey",
+        "publisher": "후생노동성 (MHLW)",
+        "frequency": "월간",
+        "latest_year": 2026,
+        "link": "https://www.mhlw.go.jp/english/database/db-l/"
+      }
+    ]
+  }
+}

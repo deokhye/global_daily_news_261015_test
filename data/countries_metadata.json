@@ -1,0 +1,353 @@
+[
+  {
+    "code": "KR",
+    "name_ko": "한국",
+    "name_en": "South Korea",
+    "currency": "KRW",
+    "curr_unit": "원",
+    "capital": "서울",
+    "region": "KR"
+  },
+  {
+    "code": "US",
+    "name_ko": "미국",
+    "name_en": "United States",
+    "currency": "USD",
+    "curr_unit": "$",
+    "capital": "워싱턴 D.C.",
+    "region": "AMER"
+  },
+  {
+    "code": "DE",
+    "name_ko": "독일",
+    "name_en": "Germany",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "베를린",
+    "region": "EU"
+  },
+  {
+    "code": "CN",
+    "name_ko": "중국",
+    "name_en": "China",
+    "currency": "CNY",
+    "curr_unit": "위안",
+    "capital": "베이징",
+    "region": "CN"
+  },
+  {
+    "code": "HU",
+    "name_ko": "헝가리",
+    "name_en": "Hungary",
+    "currency": "HUF",
+    "curr_unit": "포린트",
+    "capital": "부다페스트",
+    "region": "EU"
+  },
+  {
+    "code": "ID",
+    "name_ko": "인도네시아",
+    "name_en": "Indonesia",
+    "currency": "IDR",
+    "curr_unit": "루피아",
+    "capital": "자카르타",
+    "region": "APAC"
+  },
+  {
+    "code": "NL",
+    "name_ko": "네덜란드",
+    "name_en": "Netherlands",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "암스테르담",
+    "region": "EU"
+  },
+  {
+    "code": "TW",
+    "name_ko": "대만",
+    "name_en": "Taiwan",
+    "currency": "TWD",
+    "curr_unit": "대만달러",
+    "capital": "타이베이",
+    "region": "APAC"
+  },
+  {
+    "code": "RU",
+    "name_ko": "러시아",
+    "name_en": "Russia",
+    "currency": "RUB",
+    "curr_unit": "루블",
+    "capital": "모스크바",
+    "region": "EU"
+  },
+  {
+    "code": "RO",
+    "name_ko": "루마니아",
+    "name_en": "Romania",
+    "currency": "RON",
+    "curr_unit": "레우",
+    "capital": "부쿠레슈티",
+    "region": "EU"
+  },
+  {
+    "code": "MY",
+    "name_ko": "말레이시아",
+    "name_en": "Malaysia",
+    "currency": "MYR",
+    "curr_unit": "링깃",
+    "capital": "쿠알라룸푸르",
+    "region": "APAC"
+  },
+  {
+    "code": "MX",
+    "name_ko": "멕시코",
+    "name_en": "Mexico",
+    "currency": "MXN",
+    "curr_unit": "페소",
+    "capital": "멕시코시티",
+    "region": "LATAM"
+  },
+  {
+    "code": "MA",
+    "name_ko": "모로코",
+    "name_en": "Morocco",
+    "currency": "MAD",
+    "curr_unit": "디르함",
+    "capital": "라바트",
+    "region": "EU"
+  },
+  {
+    "code": "VN",
+    "name_ko": "베트남",
+    "name_en": "Vietnam",
+    "currency": "VND",
+    "curr_unit": "동",
+    "capital": "하노이",
+    "region": "APAC"
+  },
+  {
+    "code": "BR",
+    "name_ko": "브라질",
+    "name_en": "Brazil",
+    "currency": "BRL",
+    "curr_unit": "헤알",
+    "capital": "브라질리아",
+    "region": "LATAM"
+  },
+  {
+    "code": "SA",
+    "name_ko": "사우디아라비아",
+    "name_en": "Saudi Arabia",
+    "currency": "SAR",
+    "curr_unit": "리얄",
+    "capital": "리야드",
+    "region": "MEA"
+  },
+  {
+    "code": "RS",
+    "name_ko": "세르비아",
+    "name_en": "Serbia",
+    "currency": "RSD",
+    "curr_unit": "디나르",
+    "capital": "베오그라드",
+    "region": "EU"
+  },
+  {
+    "code": "SE",
+    "name_ko": "스웨덴",
+    "name_en": "Sweden",
+    "currency": "SEK",
+    "curr_unit": "크로나",
+    "capital": "스톡홀름",
+    "region": "EU"
+  },
+  {
+    "code": "ES",
+    "name_ko": "스페인",
+    "name_en": "Spain",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "마드리드",
+    "region": "EU"
+  },
+  {
+    "code": "SG",
+    "name_ko": "싱가포르",
+    "name_en": "Singapore",
+    "currency": "SGD",
+    "curr_unit": "싱가포르달러",
+    "capital": "싱가포르",
+    "region": "APAC"
+  },
+  {
+    "code": "AE",
+    "name_ko": "아랍에미리트",
+    "name_en": "United Arab Emirates",
+    "currency": "AED",
+    "curr_unit": "디르함",
+    "capital": "아부다비",
+    "region": "MEA"
+  },
+  {
+    "code": "GB",
+    "name_ko": "영국",
+    "name_en": "United Kingdom",
+    "currency": "GBP",
+    "curr_unit": "파운드",
+    "capital": "런던",
+    "region": "EU"
+  },
+  {
+    "code": "AT",
+    "name_ko": "오스트리아",
+    "name_en": "Austria",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "비엔나",
+    "region": "EU"
+  },
+  {
+    "code": "UA",
+    "name_ko": "우크라이나",
+    "name_en": "Ukraine",
+    "currency": "UAH",
+    "curr_unit": "흐리브냐",
+    "capital": "키이우",
+    "region": "EU"
+  },
+  {
+    "code": "EG",
+    "name_ko": "이집트",
+    "name_en": "Egypt",
+    "currency": "EGP",
+    "curr_unit": "파운드",
+    "capital": "카이로",
+    "region": "MEA"
+  },
+  {
+    "code": "IT",
+    "name_ko": "이탈리아",
+    "name_en": "Italy",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "로마",
+    "region": "EU"
+  },
+  {
+    "code": "JP",
+    "name_ko": "일본",
+    "name_en": "Japan",
+    "currency": "JPY",
+    "curr_unit": "엔",
+    "capital": "도쿄",
+    "region": "APAC"
+  },
+  {
+    "code": "CZ",
+    "name_ko": "체코",
+    "name_en": "Czech Republic",
+    "currency": "CZK",
+    "curr_unit": "코루나",
+    "capital": "프라하",
+    "region": "EU"
+  },
+  {
+    "code": "CL",
+    "name_ko": "칠레",
+    "name_en": "Chile",
+    "currency": "CLP",
+    "curr_unit": "페소",
+    "capital": "산티아고",
+    "region": "LATAM"
+  },
+  {
+    "code": "KZ",
+    "name_ko": "카자흐스탄",
+    "name_en": "Kazakhstan",
+    "currency": "KZT",
+    "curr_unit": "텐게",
+    "capital": "아스타나",
+    "region": "MEA"
+  },
+  {
+    "code": "CA",
+    "name_ko": "캐나다",
+    "name_en": "Canada",
+    "currency": "CAD",
+    "curr_unit": "캐나다달러",
+    "capital": "오타와",
+    "region": "AMER"
+  },
+  {
+    "code": "CO",
+    "name_ko": "콜롬비아",
+    "name_en": "Colombia",
+    "currency": "COP",
+    "curr_unit": "페소",
+    "capital": "보고타",
+    "region": "LATAM"
+  },
+  {
+    "code": "HR",
+    "name_ko": "크로아티아",
+    "name_en": "Croatia",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "자그레브",
+    "region": "EU"
+  },
+  {
+    "code": "TH",
+    "name_ko": "태국",
+    "name_en": "Thailand",
+    "currency": "THB",
+    "curr_unit": "바트",
+    "capital": "방콕",
+    "region": "APAC"
+  },
+  {
+    "code": "TR",
+    "name_ko": "튀르키예",
+    "name_en": "Turkey",
+    "currency": "TRY",
+    "curr_unit": "리라",
+    "capital": "앙카라",
+    "region": "EU"
+  },
+  {
+    "code": "PA",
+    "name_ko": "파나마",
+    "name_en": "Panama",
+    "currency": "PAB",
+    "curr_unit": "발보아",
+    "capital": "파나마시티",
+    "region": "LATAM"
+  },
+  {
+    "code": "PL",
+    "name_ko": "폴란드",
+    "name_en": "Poland",
+    "currency": "PLN",
+    "curr_unit": "즈워티",
+    "capital": "바르샤바",
+    "region": "EU"
+  },
+  {
+    "code": "FR",
+    "name_ko": "프랑스",
+    "name_en": "France",
+    "currency": "EUR",
+    "curr_unit": "€",
+    "capital": "파리",
+    "region": "EU"
+  },
+  {
+    "code": "AU",
+    "name_ko": "호주",
+    "name_en": "Australia",
+    "currency": "AUD",
+    "curr_unit": "호주달러",
+    "capital": "캔버라",
+    "region": "APAC"
+  }
+]
