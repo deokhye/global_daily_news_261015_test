@@ -1,0 +1,103 @@
+name: Daily Global Brief Update
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 21 * * *"   # 매일 KST 06:00 (UTC 21:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check repository layout
+        run: |
+          missing=0
+          for f in requirements.txt src/collector.py src/build_site.py data/countries_metadata.json; do
+            if [ ! -f "$f" ]; then
+              echo "::error::필수 파일 없음: $f"
+              missing=1
+            fi
+          done
+          if [ ! -f template/template.html ] && [ ! -f templates/template.html ]; then
+            echo "::error::필수 파일 없음: template/template.html"
+            missing=1
+          fi
+          if [ "$missing" -ne 0 ]; then
+            echo "---- 현재 저장소 파일 목록 ----"
+            git ls-files
+            exit 1
+          fi
+          echo "저장소 구조 확인 완료"
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Collector
+        run: |
+          python src/collector.py
+
+      - name: Build Site
+        run: |
+          python src/build_site.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          if git diff --staged --quiet; then
+            echo "변경 사항 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "chore: auto-update daily brief data [$(TZ=Asia/Seoul date +'%Y-%m-%d')]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash -X theirs origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "push 실패 — ${i}회차 재시도"
+            sleep $((i * 5))
+          done
+          echo "::error::push 3회 실패"
+          exit 1
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "docs/"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-24.04
+    needs: update-and-build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
