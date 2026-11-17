@@ -1,6 +1,6 @@
 {
   "cache_version": 2,
-  "updated_at": "2026-11-16T09:27:37.137111+09:00",
+  "updated_at": "2026-11-17T12:15:53.821371+09:00",
   "refresh_days": 30,
   "countries": {
     "KR": {
@@ -268,7 +268,7 @@
         "display": "3.6%",
         "source": "ILOSTAT",
         "year": 2021,
-        "last_updated": "2026-10-15T12:55:38.980168+09:00"
+        "last_updated": "2026-11-17T12:16:26.818387+09:00"
       },
       "min_wage": {
         "display": "29,500대만달러 / 월",
