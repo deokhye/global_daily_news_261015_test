@@ -1,6 +1,6 @@
 {
   "cache_version": 2,
-  "updated_at": "2026-11-17T12:15:53.821371+09:00",
+  "updated_at": "2026-11-19T11:05:23.965077+09:00",
   "refresh_days": 30,
   "countries": {
     "KR": {
@@ -483,7 +483,7 @@
         "display": "3.3%",
         "source": "World Bank",
         "year": 2025,
-        "last_updated": "2026-10-15T12:55:58.521921+09:00"
+        "last_updated": "2026-11-19T11:05:28.138269+09:00"
       },
       "unemployment": {
         "value": 1.523,
@@ -1290,7 +1290,7 @@
         "display": "905억 USD",
         "source": "World Bank",
         "year": 2025,
-        "last_updated": "2026-10-15T12:57:20.702787+09:00"
+        "last_updated": "2026-11-19T11:05:29.043170+09:00"
       },
       "inflation": {
         "value": -0.187950146495633,
